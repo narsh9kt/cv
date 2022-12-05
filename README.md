@@ -1,1 +1,1 @@
-# rsschool-cv
+https://github.com/Narsh91/rsschool-cv/blob/gh-pages/cv.md
