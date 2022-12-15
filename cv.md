@@ -22,12 +22,13 @@ Hello there! I'm a novice Frontend Developer. I'm very energetic and eager to le
 
 ## Code Example
 
+```
 function multiply(a, b) {
-    return a * b;
+    return a * b
   }
 
-  alert(multiply(1, 2));
-
+alert(multiply(1, 2));
+```
 
 ## Projects
 
