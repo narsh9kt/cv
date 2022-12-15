@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="page">
+  <div class="page__container">
+    <header class="header">
+      <div class="header__top-inner">
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__item-link link-opacity" href="#contacts">Contacts</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link link-opacity" href="#about-me">About Me</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link link-opacity" href="#skills">Skills</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link link-opacity" href="#code">Code</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link link-opacity" href="#projects">Projects</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link link-opacity" href="#education">Education</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link link-opacity" href="#languages">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__bottom-inner">
+        <img class="header__author-photo" src="./img/photo.jpg" alt="Photo">
+        <h1 class="header__title">Nikolai <span class="last-name">Iadreev</span></h1>
+        <p class="header__subtitle">Junior Frontend Developer</p>
+      </div>
+    </header>
+    <main class="main">
+      <div class="info" aria-label="info">
+        <section class="contacts" id="contats">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">Phone: +7 999 173 99 11</li>
+            <li class="contacts__item">Email: <a class="contacts__item-link link-opacity" href="mailto:nikolaiiadreev@gmail.com">nikolaiiadreev@gmail.com</a></li>
+            <li class="contacts__item">GitHub: <a class="contacts__item-link link-opacity" href="https://github.com/narsh91" target="_blank">narsh91</a></li>
+            <li class="contacts__item">Discord: <a class="contacts__item-link link-opacity" href="https://discordapp.com/users/868771541356273684" target="_blank">narsh#3171</a></li>
+          </ul>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS (BEM)</li>
+            <li class="skills__item">JavaScript Basics</li>
+            <li class="skills__item">Git, GitHub</li>
+          </ul>
+        </section>
+        <section class="lang" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="lang__list">
+            <li class="lang__item">Russian - Native</li>
+            <li class="lang__item">English - A1 (In process)</li>
+          </ul>
+        </section>
+      </div>
+      <div class="line"></div>
+      <div class="content" aria-label="content">
+        <section class="about-me" id="about-me">
+          <h2 class="section-title">About Me</h2>
+          <p class="about-me__text">Hello there! I'm a novice Frontend Developer. I'm very energetic and eager to learn
+            new skills. Learning new skills can be highly useful to my career. In the future, I would like to work under
+            the guidance of an experienced developer to gain practical experience.</p>
+        </section>
+        <section class="code" id="code">
+          <h2 class="section-title">Code Example</h2>
+          <pre class="code__lang">
+            <code class="code__lang-js" data-language="javascript">
+  function multiply(a, b) {
+    return a * b;
+  }
+
+  alert(multiply(1, 2));
+            </code>
+          </pre>
+        </section>
+        <section class="projects" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <p class="projects__text">It will be soon. I think.</p>
+        </section>
+        <section class="education" id="education">
+          <h2 class="section-title">Education</h2>
+          <p class="education__text">North-Eastern Federal University</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a class="footer__logo-link link-opacity" href="https://rs.school/" target="_blank"><img class="footer__logo" src="./img/rs_school_js.svg" alt="Logo"></a>
+      <div class="footer__block-copyright">
+        <p class="footer__copyright">&copy; 2022.</p>
+        <a class="footer__copyright-link link-opacity" href="https://github.com/narsh91" target="_blank">Nikolai Iadreev</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
