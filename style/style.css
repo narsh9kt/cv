@@ -67,8 +67,8 @@
   line-height: 1.04em;
   text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
-  /* color: #e4f1fe; */
+  /* color: #aad5ff; */
+  color: #e4f1fe;
 }
 
 .last-name {
@@ -200,7 +200,7 @@
 }
 
 .link-opacity:hover {
-  color: #22313f;
+  color: #7aa5d2;
 }
 
 @media (max-width: 767px) {
