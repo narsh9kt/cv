@@ -16,11 +16,12 @@
 
 .header {
   background:#131313;
+  /* background: #22313f; */
   padding: 1rem;
 }
 
 .menu__list {
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: end;
   list-style-type: none;
@@ -40,6 +41,10 @@
   text-decoration: none;
   font-size: 14px;
   color: #ffffff;
+}
+
+.hamb {
+  display: none;
 }
 
 .header__bottom-inner {
@@ -63,6 +68,7 @@
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
+  /* color: #e4f1fe; */
 }
 
 .last-name {
@@ -194,7 +200,7 @@
 }
 
 .link-opacity:hover {
-  color: rgba(255, 191, 0, 0.5);
+  color: #22313f;
 }
 
 @media (max-width: 767px) {
@@ -229,6 +235,54 @@
   .line {
     display: none;
   }
+}
+
+.hamb {
+  position: relative;
+  display: block;
+  width: 2.8rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.hamb__line {
+  display: block;
+  width: 100%;
+  height: 0.3rem;
+  background-color: #000;
+  transition: .5s;
+}
+
+.hamb__line:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hamb__line:nth-child(2) {
+  position: absolute;
+  top: calc(50% - 0.15rem);
+  left: 0;
+}
+
+.hamb__line:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.hamb.active .hamb__line:nth-child(1) {
+  transform: translateY(0.85rem) rotate(45deg);
+}
+
+.hamb.active .hamb__line:nth-child(2) {
+  transform: translateX(-100%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.hamb.active .hamb__line:nth-child(3) {
+  transform: translateY(-0.85rem) rotate(-45deg);
 }
 
 @media (max-width: 374px) {
