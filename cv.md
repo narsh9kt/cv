@@ -1,33 +1,36 @@
-# Nikolai Iadreev
+# Nikolay Yadreev
 
 ## Contacts
 
-* Phone: +7 999 173 99 11
-* Email: nikolaiiadreev@gmail.com
-* GitHub: [narsh91](https://github.com/Narsh91)
+* Phone: +7 999 173 xx xx
+* Email: narsh991@gmail.com
+* GitHub: [narshykt](https://github.com/narshykt)
 
 
 ## About Me
 
-Hello there! I'm a novice Frontend Developer. I'm very energetic and eager to learn new skills. Learning new skills can be highly useful to my career. In the future, I would like to work under the guidance of an experienced developer to gain practical experience.
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta tempore veniam mollitia, amet fugit delectus iusto obcaecati laborum. Pariatur laboriosam voluptatibus aspernatur, assumenda reprehenderit voluptatum dolore deleniti culpa. Assumenda, atque!
 
 
 ## Skills
 
+* Java
 * HTML
 * CSS
-* JavaScript
 * Git/GitHub
 
 
 ## Code Example
 
 ```
-function multiply(a, b) {
-    return a * b
+public class Kata {
+    public static int[] invert(int[] array) {
+    for (int i = 0; i < array.length; i++) {
+      array[i] = -array[i];
+    }
+    return array;
+    }
   }
-
-alert(multiply(1, 2));
 ```
 
 ## Projects
@@ -38,6 +41,7 @@ It will be soon!
 ## Education
 
 North-Eastern Federal University
+School 21
 
 
 ## Language
