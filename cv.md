@@ -2,9 +2,9 @@
 
 ## Contacts
 
-* Phone: +7 999 173 xx xx
+* Phone: +7 999 173 99 11
 * Email: narsh991@gmail.com
-* GitHub: [narshykt](https://github.com/narshykt)
+* GitHub: [narshykt](https://github.com/narsh9kt)
 
 
 ## About Me
@@ -14,23 +14,19 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta tempore veniam 
 
 ## Skills
 
-* Java
 * HTML
 * CSS
+* JS
+* BEM
 * Git/GitHub
 
 
 ## Code Example
 
 ```
-public class Kata {
-    public static int[] invert(int[] array) {
-    for (int i = 0; i < array.length; i++) {
-      array[i] = -array[i];
-    }
-    return array;
-    }
-  }
+function sayHello(name) {
+  return `Hello, ${name}`
+}
 ```
 
 ## Projects
