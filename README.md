@@ -1,5 +1,5 @@
-# rsschool-cv
+# cv
 
-https://narsh91.github.io/rsschool-cv/cv
+https://narsh9kt.github.io/cv/cv
 
-https://narsh91.github.io/rsschool-cv/
+https://narsh9kt.github.io/cv/
