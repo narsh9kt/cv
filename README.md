@@ -1,3 +1,3 @@
-https://narshykt.github.io/rsschool-cv-test/
+https://narsh9kt.github.io/cv/
 
-https://narshykt.github.io/rsschool-cv-test/cv
+https://narsh9kt.github.io/cv/cv
